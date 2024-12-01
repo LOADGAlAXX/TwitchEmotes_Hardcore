@@ -4,7 +4,7 @@ set -euo pipefail
 
 source .env
 
-stage=${1:-alpha}
+stage=${1:-}
 
 version_mainline=$(grep "Version: " TwitchEmotes_Hardcore-Mainline.toc | cut -d ' ' -f 3)
 version_classic=$(grep "Version: " TwitchEmotes_Hardcore-Classic.toc | cut -d ' ' -f 3)
@@ -35,7 +35,7 @@ gh release create \
     "$version" \
     --verify-tag \
     --title "$version" \
-    --notes "$version" \
+    --notes "$version - added damn, meandyou" \
     "dist/TwitchEmotes_Hardcore-$version.zip"
 
 echo "Published version $version to GitHub"
