@@ -109,7 +109,6 @@ judhead_emotes = {
     ["jokerParty"] = basePath .. "jokerParty.tga:56:28",
     ["jokerFight"] = basePath .. "jokerFight.tga:56:28",
     ["ReallyNah"] = basePath .. "ReallyNah.tga:56:28",
-    ["docNotL"] = basePath .. "docNotL.tga:56:28",
     ["HesRight"] = basePath .. "HesRight.tga:56:28",
     ["docWTF"] = basePath .. "docWTF.tga:28:28",
     ["Love"] = basePath .. "Love.tga:28:28",
@@ -216,4 +215,6 @@ judhead_emotes = {
     ["zyzzDance"] = basePath .. "zyzzDance.tga:56:28",
     ["catPls"] = basePath .. "catPls.tga:56:28",
     ["pokePls"] = basePath .. "pokePls.tga:56:28",
+    ["PEPW"] = basePath .. "PEPW.tga:28:28",
+    ["glorpNotL"] = basePath .. "glorpNotL.tga:56:28",
 }
