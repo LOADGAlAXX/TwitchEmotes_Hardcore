@@ -47,7 +47,7 @@ metadata=$(cat <<EOF
 {
     "changelog": "$version added euh, zyzzDance, catPls, pokePls",
     "displayName": "TwitchEmotes Hardcore $version",
-    "gameVersions": [12216, 11596],
+    "gameVersions": [12216, 12215],
     "releaseType": "$stage"
 }
 EOF
