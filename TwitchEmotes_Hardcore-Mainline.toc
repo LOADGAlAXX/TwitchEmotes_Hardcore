@@ -1,4 +1,4 @@
-## Interface: 100205
+## Interface: 110002
 ## Version: 1.9.17
 ## Title: TwitchEmotes Hardcore v1.9.17
 ## Dependencies: TwitchEmotes

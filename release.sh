@@ -34,8 +34,8 @@ git push origin --tags "$version"
 gh release create \
     "$version" \
     --verify-tag \
-    --title "$version" \
-    --notes "$version - added damn, meandyou" \
+    --title "TwitchEmotes Hardcore $version" \
+    --notes "TwitchEmotes Hardcore $version - added euh, zyzzDance, catPls, pokePls" \
     "dist/TwitchEmotes_Hardcore-$version.zip"
 
 echo "Published version $version to GitHub"
@@ -45,9 +45,9 @@ echo "Published version $version to GitHub"
 
 metadata=$(cat <<EOF
 {
-    "changelog": "$version",
-    "displayName": "$version",
-    "gameVersions": [10341, 10372],
+    "changelog": "$version added euh, zyzzDance, catPls, pokePls",
+    "displayName": "TwitchEmotes Hardcore $version",
+    "gameVersions": [12216, 11596],
     "releaseType": "$stage"
 }
 EOF
