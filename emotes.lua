@@ -217,4 +217,5 @@ judhead_emotes = {
     ["pokePls"] = basePath .. "pokePls.tga:56:28",
     ["PEPW"] = basePath .. "PEPW.tga:28:28",
     ["glorpNotL"] = basePath .. "glorpNotL.tga:56:28",
+    ["Slayyy"] = basePath .. "Slayyy.tga:28:28",
 }
