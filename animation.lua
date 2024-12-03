@@ -163,3 +163,6 @@ TwitchEmotes_animation_metadata[basePath .. "zyzzDance.tga"] = {["nFrames"] = 96
 TwitchEmotes_animation_metadata[basePath .. "catPls.tga"] = {["nFrames"] = 30, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 1024, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "pokePls.tga"] = {["nFrames"] = 144, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 8192, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "glorpNotL.tga"] = {["nFrames"] = 75, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 4096, ["framerate"] = 30}
+TwitchEmotes_animation_metadata[basePath .. "BRUH.tga"] = {["nFrames"] = 249, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 8192, ["framerate"] = 18}
+TwitchEmotes_animation_metadata[basePath .. "donkGiggles.tga"] = {["nFrames"] = 8, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 256, ["framerate"] = 30}
+TwitchEmotes_animation_metadata[basePath .. "dankG.tga"] = {["nFrames"] = 9, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 512, ["framerate"] = 18}

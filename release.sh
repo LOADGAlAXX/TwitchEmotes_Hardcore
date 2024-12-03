@@ -35,7 +35,7 @@ gh release create \
     "$version" \
     --verify-tag \
     --title "TwitchEmotes Hardcore $version" \
-    --notes "TwitchEmotes Hardcore $version - added Slayyy," \
+    --notes "TwitchEmotes Hardcore $version - added Slayyy, BRUH, donkGiggles, dankG, Bruheg, Bruhge" \
     "dist/TwitchEmotes_Hardcore-$version.zip"
 
 echo "Published version $version to GitHub"
@@ -45,7 +45,7 @@ echo "Published version $version to GitHub"
 
 metadata=$(cat <<EOF
 {
-    "changelog": "$version added Slayyy,",
+    "changelog": "$version added Slayyy, BRUH, donkGiggles, dankG, Bruheg, Bruhge",
     "displayName": "TwitchEmotes Hardcore $version",
     "gameVersions": [12216, 12215, 11925, 10272],
     "releaseType": "$stage"
