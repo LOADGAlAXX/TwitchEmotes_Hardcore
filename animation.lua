@@ -6,7 +6,6 @@ TwitchEmotes_animation_metadata[basePath .. "KEKFlute.tga"] = {["nFrames"] = 64,
 TwitchEmotes_animation_metadata[basePath .. "jokerBonk.tga"] = {["nFrames"] = 14, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 512, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "DIESOFCRINGE.tga"] = {["nFrames"] = 73, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 4096, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "KEKIUM.tga"] = {["nFrames"] = 30, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 1024, ["framerate"] = 18}
-TwitchEmotes_animation_metadata[basePath .. "SALAMI.tga"] = {["nFrames"] = 4, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 128, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "PUMP.tga"] = {["nFrames"] = 9, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 512, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "GIGABULL.tga"] = {["nFrames"] = 144, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 8192, ["framerate"] = 30}
 TwitchEmotes_animation_metadata[basePath .. "ankhaBounce.tga"] = {["nFrames"] = 13, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 512, ["framerate"] = 18}
@@ -35,7 +34,6 @@ TwitchEmotes_animation_metadata[basePath .. "HUHA.tga"] = {["nFrames"] = 1, ["fr
 TwitchEmotes_animation_metadata[basePath .. "NewSkirt.tga"] = {["nFrames"] = 45, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 2048, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "NightRoutine.tga"] = {["nFrames"] = 147, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 8192, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "KEKDoctor.tga"] = {["nFrames"] = 1, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 32, ["framerate"] = 18}
-TwitchEmotes_animation_metadata[basePath .. "CAUGHT.tga"] = {["nFrames"] = 1, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 32, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "COT.tga"] = {["nFrames"] = 1, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 32, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "SummoningTheDemons.tga"] = {["nFrames"] = 190, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 8192, ["framerate"] = 30}
 TwitchEmotes_animation_metadata[basePath .. "BASED.tga"] = {["nFrames"] = 82, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 4096, ["framerate"] = 18}
