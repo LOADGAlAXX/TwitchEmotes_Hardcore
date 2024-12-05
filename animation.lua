@@ -170,4 +170,3 @@ TwitchEmotes_animation_metadata[basePath .. "Lamonting.tga"] = {["nFrames"] = 11
 TwitchEmotes_animation_metadata[basePath .. "Nerd.tga"] = {["nFrames"] = 23, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 1024, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "Wankge.tga"] = {["nFrames"] = 2, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 64, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "peepoFine.tga"] = {["nFrames"] = 11, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 512, ["framerate"] = 18}
-TwitchEmotes_animation_metadata[basePath .. "FeelsWeakMan.tga"] = {["nFrames"] = 49, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 2048, ["framerate"] = 18}
