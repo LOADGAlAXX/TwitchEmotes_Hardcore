@@ -224,4 +224,5 @@ judhead_emotes = {
     ["pepGiggle"] = basePath .. "pepGiggle.tga:28:28",
     ["bongTime"] = basePath .. "bongTime.tga:56:28",
     ["jointTime"] = basePath .. "jointTime.tga:56:28",
+    ["Lamonting"] = basePath .. "Lamonting.tga:56:28",
 }
