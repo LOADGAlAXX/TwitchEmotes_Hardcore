@@ -173,3 +173,4 @@ TwitchEmotes_animation_metadata[basePath .. "peepoFine.tga"] = {["nFrames"] = 11
 TwitchEmotes_animation_metadata[basePath .. "FADEDTHANAHOE.tga"] = {["nFrames"] = 90, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 4096, ["framerate"] = 30}
 TwitchEmotes_animation_metadata[basePath .. "salami.tga"] = {["nFrames"] = 4, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 128, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "pinkPits.tga"] = {["nFrames"] = 60, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 2048, ["framerate"] = 18}
+TwitchEmotes_animation_metadata[basePath .. "NOW.tga"] = {["nFrames"] = 90, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 4096, ["framerate"] = 18}
