@@ -5,7 +5,7 @@ Requires [Twitch Emotes v2](https://www.curseforge.com/wow/addons/twitch-emotes-
 Manual instructions:
 
 1. Go to https://github.com/LOADGAlAXX/TwitchEmotes_Hardcore/releases
-1. Extract `TwitchEmotes_Hardcore-1.9.17-release` to your Addons directory.
+1. Extract `TwitchEmotes_Hardcore-xxxxx-release` to your Addons directory.
     * If you're playing retail, it's likely in `C:\Program Files (x86)\World of Warcraft\_retail_\Interface\Addons`
     * Classic is  `C:\Program Files (x86)\World of Warcraft\_classic_era_\Interface\Addons`
 1. Reload/restart WoW
