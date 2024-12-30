@@ -179,3 +179,5 @@ TwitchEmotes_animation_metadata[basePath .. "meowdy.tga"] = {["nFrames"] = 11, [
 TwitchEmotes_animation_metadata[basePath .. "FADEDTHANAGLORP.tga"] = {["nFrames"] = 84, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 4096, ["framerate"] = 30}
 TwitchEmotes_animation_metadata[basePath .. "deadlole.tga"] = {["nFrames"] = 19, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 1024, ["framerate"] = 10}
 TwitchEmotes_animation_metadata[basePath .. "bedlole.tga"] = {["nFrames"] = 9, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 512, ["framerate"] = 5}
+TwitchEmotes_animation_metadata[basePath .. "59.tga"] = {["nFrames"] = 50, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 2048, ["framerate"] = 18}
+TwitchEmotes_animation_metadata[basePath .. "60.tga"] = {["nFrames"] = 121, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 4096, ["framerate"] = 18}
