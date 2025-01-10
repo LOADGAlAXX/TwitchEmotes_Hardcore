@@ -183,3 +183,4 @@ TwitchEmotes_animation_metadata[basePath .. "59.tga"] = {["nFrames"] = 50, ["fra
 TwitchEmotes_animation_metadata[basePath .. "60.tga"] = {["nFrames"] = 290, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 9280, ["framerate"] = 30}
 TwitchEmotes_animation_metadata[basePath .. "badvibes.tga"] = {["nFrames"] = 90, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 4096, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "FINALLY.tga"] = {["nFrames"] = 19, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 1024, ["framerate"] = 18}
+TwitchEmotes_animation_metadata[basePath .. "DESKCHAN.tga"] = {["nFrames"] = 15, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 512, ["framerate"] = 30}
