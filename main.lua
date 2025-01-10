@@ -100,11 +100,15 @@ function TwitchEmotesAnimator_UpdateEmoteInFontString(fontstring, widthOverride,
             local imagepath = emoteTextureString:match("|T(Interface\\AddOns\\TwitchEmotes.-tga).-|t")
 
             local animdata = TwitchEmotes_animation_metadata[imagepath];
-            -- print(animdata)
             if (animdata ~= nil) then
                 local framenum = TwitchEmotes_GetCurrentFrameNum(animdata);
                 local nTxt;
-                if(widthOverride ~= nil or heightOverride ~= nil) then
+		-- it is not an emote suggestion and it is a wide animated emote
+		if (widthOverride ~= 16 and animdata.frameWidth > 32) then
+                    nTxt = txt:gsub(escpattern(emoteTextureString),
+                                        TwitchEmotes_BuildEmoteFrameStringWithDimensions(
+                                        imagepath, animdata, framenum, animdata.frameHeight, animdata.frameWidth))
+		elseif (widthOverride ~= nil or heightOverride ~= nil) then
                     nTxt = txt:gsub(escpattern(emoteTextureString),
                                         TwitchEmotes_BuildEmoteFrameStringWithDimensions(
                                         imagepath, animdata, framenum, widthOverride, heightOverride))
