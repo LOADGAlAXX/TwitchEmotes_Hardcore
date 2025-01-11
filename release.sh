@@ -35,7 +35,7 @@ gh release create \
     "$version" \
     --verify-tag \
     --title "TwitchEmotes Hardcore $version" \
-    --notes "TwitchEmotes Hardcore $version - edited FINALLY, badvibes + wide animated emotes now supported" \
+    --notes "TwitchEmotes Hardcore $version - edited COT, SummoningTheDemons, FADEDTHANAHOE, FADEDTHANAGLORP | removed punish | added glorpGang, DESKCHAN" \
     "dist/TwitchEmotes_Hardcore-$version.zip"
 
 echo "Published version $version to GitHub"
@@ -45,7 +45,7 @@ echo "Published version $version to GitHub"
 
 metadata=$(cat <<EOF
 {
-    "changelog": "$version edited FINALLY, badvibes + wide animated emotes now supported",
+    "changelog": "$version edited COT, SummoningTheDemons, FADEDTHANAHOE, FADEDTHANAGLORP | removed punish | added glorpGang, DESKCHAN",
     "displayName": "TwitchEmotes Hardcore $version",
     "gameVersions": [12216, 12215, 11925, 10272],
     "releaseType": "$stage"
