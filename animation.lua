@@ -184,3 +184,5 @@ TwitchEmotes_animation_metadata[basePath .. "FADEDTHANAHOE.tga"] = {["nFrames"] 
 TwitchEmotes_animation_metadata[basePath .. "FADEDTHANAGLORP.tga"] = {["nFrames"] = 84, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 4096, ["framerate"] = 30}
 TwitchEmotes_animation_metadata[basePath .. "COT.tga"] = {["nFrames"] = 1, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 32, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "SummoningTheDemons.tga"] = {["nFrames"] = 190, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 8192, ["framerate"] = 18}
+TwitchEmotes_animation_metadata[basePath .. "ROACH.tga"] = {["nFrames"] = 46, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 2048, ["framerate"] = 30}
+TwitchEmotes_animation_metadata[basePath .. "SAVED.tga"] = {["nFrames"] = 48, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 2048, ["framerate"] = 18}
