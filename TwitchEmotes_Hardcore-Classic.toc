@@ -1,6 +1,6 @@
 ## Interface: 11506
-## Version: 1.10.12
-## Title: TwitchEmotes Hardcore v1.10.12
+## Version: 1.10.13
+## Title: TwitchEmotes Hardcore v1.10.13
 ## Dependencies: TwitchEmotes
 emotes.lua
 animation.lua
