@@ -191,3 +191,4 @@ TwitchEmotes_animation_metadata[basePath .. "glorpArmy.tga"] = {["nFrames"] = 12
 TwitchEmotes_animation_metadata[basePath .. "meandyall.tga"] = {["nFrames"] = 1, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 32, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "UbelFeet.tga"] = {["nFrames"] = 1, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 32, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "TRUEING.tga"] = {["nFrames"] = 99, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 4096, ["framerate"] = 18}
+TwitchEmotes_animation_metadata[basePath .. "ABOBA.tga"] = {["nFrames"] = 89, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 4096, ["framerate"] = 18}
