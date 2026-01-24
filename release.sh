@@ -45,9 +45,9 @@ echo "Published version $version to GitHub"
 
 metadata=$(cat <<EOF
 {
-    "changelog": "$version - added ABOBA, KEKSip | toc update",
+    "changelog": "$version - added glorpNotL, LO, lerolero | toc update",
     "displayName": "TwitchEmotes Hardcore $version",
-    "gameVersions": [12216, 12215, 11925, 10272],
+    "gameVersions": [12495, 12345, 11926, 12494, 14300],
     "releaseType": "$stage"
 }
 EOF

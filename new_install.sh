@@ -6,10 +6,10 @@ source .env || true
 
 case $1 in
     retail)
-        wow_addon_path="${WOW_ADDONS_RETAIL:-/c/Program Files (x86)/World of Warcraft/_retail_/Interface/Addons}"
+        wow_addon_path="${WOW_ADDONS_RETAIL:-/c/World of Warcraft/_retail_/Interface/Addons}"
         ;;
     classic)
-        wow_addon_path="${WOW_ADDONS_CLASSIC_ERA:-/c/World of Warcraft/_Anniversary_/Interface/AddOns}"
+        wow_addon_path="${WOW_ADDONS_CLASSIC_ERA:-/c/World of Warcraft/_classic_/Interface/Addons}"
         ;;
     *)
         echo "Unknown wow version $1"

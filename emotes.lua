@@ -35,7 +35,6 @@ judhead_emotes = {
     ["monkePls"] = basePath .. "monkePls.tga:56:28",
     ["DougDimmadomeOwnerOfTheDimmsdaleDimmadomeLookingOutHisDimmsdaleDimmadome"] = basePath .. "DougDimmadomeOwnerOfTheDimmsdaleDimmadomeLookingOutHisDimmsdaleDimmadome.tga:56:28",
     ["AGGREND"] = basePath .. "AGGREND.tga:56:28",
-    ["Listening"] = basePath .. "Listening.tga:56:28",
     ["OMEGAKEK"] = basePath .. "OMEGAKEK.tga:56:28",
     ["KEKInsane"] = basePath .. "KEKInsane.tga:56:28",
     ["mhm"] = basePath .. "mhm.tga:56:28",
@@ -258,4 +257,7 @@ judhead_emotes = {
     ["TRUEING"] = basePath .. "TRUEING.tga:56:28",
     ["ABOBA"] = basePath .. "ABOBA.tga:56:28",
     ["KEKSip"] = basePath .. "KEKSip.tga:28:28",
+    ["Listening"] = basePath .. "Listening.tga:56:28",
+    ["LO"] = basePath .. "LO.tga:28:36",
+    ["lerolero"] = basePath .. "lerolero.tga:56:28",
 	}
