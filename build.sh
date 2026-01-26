@@ -25,5 +25,6 @@ for img in emotes/*.webp ; do magick "$img" "$dist_dir/${img%.*}.tga" ; done
 cp *.lua "$dist_dir"
 cp TwitchEmotes_Hardcore-Mainline.toc "$dist_dir"
 cp TwitchEmotes_Hardcore-Classic.toc "$dist_dir"
+cp TwitchEmotes_Hardcore-TBC.toc "$dist_dir"
 
 powershell Compress-Archive "$dist_dir" "$zip_name"

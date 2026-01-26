@@ -194,3 +194,4 @@ TwitchEmotes_animation_metadata[basePath .. "TRUEING.tga"] = {["nFrames"] = 99, 
 TwitchEmotes_animation_metadata[basePath .. "ABOBA.tga"] = {["nFrames"] = 89, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 4096, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "Listening.tga"] = {["nFrames"] = 162, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 8192, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "lerolero.tga"] = {["nFrames"] = 22, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 1024, ["framerate"] = 30}
+TwitchEmotes_animation_metadata[basePath .. "waga.tga"] = {["nFrames"] = 14, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 512, ["framerate"] = 18}

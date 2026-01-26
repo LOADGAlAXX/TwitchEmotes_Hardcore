@@ -260,4 +260,7 @@ judhead_emotes = {
     ["Listening"] = basePath .. "Listening.tga:56:28",
     ["LO"] = basePath .. "LO.tga:28:36",
     ["lerolero"] = basePath .. "lerolero.tga:56:28",
+    ["waga"] = basePath .. "waga.tga:56:28",
+    ["frogWide"] = basePath .. "frogWide.tga:28:62:0:0:96:32:0:96:0:32",
+    ["kermitStretch"] = basePath .. "kermitStretch.tga:28:62:0:0:96:32:0:96:0:32",
 	}
