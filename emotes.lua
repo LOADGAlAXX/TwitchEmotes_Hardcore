@@ -263,4 +263,7 @@ judhead_emotes = {
     ["waga"] = basePath .. "waga.tga:56:28",
     ["frogWide"] = basePath .. "frogWide.tga:28:62:0:0:96:32:0:96:0:32",
     ["kermitStretch"] = basePath .. "kermitStretch.tga:28:62:0:0:96:32:0:96:0:32",
+    ["CantProveIt"] = basePath .. "CantProveIt.tga:56:28",
+    ["glermgi"] = basePath .. "glermgi.tga:28:28",
+    ["Glerm"] = basePath .. "Glerm.tga:56:28",
 	}
