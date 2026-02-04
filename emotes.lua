@@ -266,4 +266,6 @@ judhead_emotes = {
     ["CantProveIt"] = basePath .. "CantProveIt.tga:56:28",
     ["glermgi"] = basePath .. "glermgi.tga:28:28",
     ["Glerm"] = basePath .. "Glerm.tga:56:28",
+    ["RAAAAAAGH"] = basePath .. "RAAAAAAGH.tga:56:28",
+    ["67"] = basePath .. "67.tga:56:28",
 	}

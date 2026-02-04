@@ -197,3 +197,5 @@ TwitchEmotes_animation_metadata[basePath .. "lerolero.tga"] = {["nFrames"] = 22,
 TwitchEmotes_animation_metadata[basePath .. "waga.tga"] = {["nFrames"] = 14, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 512, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "CantProveIt.tga"] = {["nFrames"] = 131, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 8192, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "Glerm.tga"] = {["nFrames"] = 128, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 4096, ["framerate"] = 18}
+TwitchEmotes_animation_metadata[basePath .. "RAAAAAAGH.tga"] = {["nFrames"] = 186, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 8192, ["framerate"] = 18}
+TwitchEmotes_animation_metadata[basePath .. "67.tga"] = {["nFrames"] = 205, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 8192, ["framerate"] = 42}
