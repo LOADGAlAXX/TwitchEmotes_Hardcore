@@ -35,7 +35,7 @@ gh release create \
     "$version" \
     --verify-tag \
     --title "TwitchEmotes Hardcore $version" \
-    --notes "TwitchEmotes Hardcore $version - fix addon not working standalone" \
+    --notes "TwitchEmotes Hardcore $version - added uwo, ooBLEH, evol" \
     "dist/TwitchEmotes_Hardcore-$version.zip"
 
 echo "Published version $version to GitHub"
@@ -45,7 +45,7 @@ echo "Published version $version to GitHub"
 
 metadata=$(cat <<EOF
 {
-    "changelog": "$version - fix addon not working standalone",
+    "changelog": "$version - added uwo, ooBLEH, evol",
     "displayName": "TwitchEmotes Hardcore $version",
     "gameVersions": [14422, 14300, 14282, 14102, 14029],
     "releaseType": "$stage"
