@@ -271,4 +271,8 @@ judhead_emotes = {
     ["LMAOO"] = basePath .. "LMAOO.tga:28:62:0:0:96:32:0:96:0:32",
     ["DOYOUFEELTHEWEIGHTOFTHEGLORPTHEIRJUDGEMENTISABSOLUTEDOESITMAKEYOURSKINSHIVERTHEYRECOMINGTHEYRECOMI"] = basePath .. "DOYOUFEELTHEWEIGHTOFTHEGLORPTHEIRJUDGEMENTISABSOLUTEDOESITMAKEYOURSKINSHIVERTHEYRECOMINGTHEYRECOMI.tga:28:28",
     ["SkeletonPls"] = basePath .. "SkeletonPls.tga:56:28",
+    ["reeducated"] = basePath .. "reeducated.tga:56:28",
+    ["Cereal"] = basePath .. "Cereal.tga:28:28",
+    ["o"] = basePath .. "o.tga:56:28",
+    ["cum7"] = basePath .. "cum7.tga:56:28",
 	}
