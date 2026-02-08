@@ -1,28 +1,34 @@
-function judhead_startup()
+function hardcore_startup()
     local suggestions = {};
     local i = 1;
 
-    for k, v in pairs(judhead_emotes) do
+    for k, v in pairs(hardcore_emotes) do
         TwitchEmotes:AddEmote(k, k, v);
 
         suggestions[i] = k;
         i = i + 1;
     end
+	for k, v in pairs(judhead_emotes) do
+        TwitchEmotes:AddEmote(k, k, v);
 
-    judhead_initsuggestions(suggestions);
+        suggestions[i] = k;
+        i = i + 1;
+    end
+	
+    hardcore_initsuggestions(suggestions);
 end
 
-function judhead_concat(t1, t2)
+function hardcore_concat(t1, t2)
     for i=1,#t2 do
         t1[#t1+1] = t2[i]
     end
     return t1
 end
 
-function judhead_initsuggestions(suggestions)
+function hardcore_initsuggestions(suggestions)
     if AllTwitchEmoteNames ~= nil and Emoticons_Settings ~= nil and Emoticons_RenderSuggestionFN ~= nil and Emoticons_Settings["ENABLE_AUTOCOMPLETE"] then
 
-        judhead_concat(suggestions, AllTwitchEmoteNames);
+        hardcore_concat(suggestions, AllTwitchEmoteNames);
         table.sort(suggestions);
 
         for i=1, NUM_CHAT_WINDOWS do
@@ -58,11 +64,26 @@ function judhead_initsuggestions(suggestions)
     end
 end
 
-function judhead_dump()
+function hardcore_dump()
     local str = ""
     local i = 0
 
-    for k, v in pairs(judhead_emotes) do
+    for k, v in pairs(hardcore_emotes) do
+        str = str .. "|Htel:name = " .. k .. "\npath = " .. v .. "|h|T" .. v .. "|t|h "
+
+        i = i + 1
+        if i == 8 then
+            print(str)
+            str = ""
+            i = 0
+        end
+    end
+
+    if i > 0 then
+        print(str)
+    end
+	
+	for k, v in pairs(judhead_emotes) do
         str = str .. "|Htel:name = " .. k .. "\npath = " .. v .. "|h|T" .. v .. "|t|h "
 
         i = i + 1
@@ -129,4 +150,4 @@ function TwitchEmotesAnimator_UpdateEmoteInFontString(fontstring, widthOverride,
     end
 end
 
-judhead_startup();
+hardcore_startup();

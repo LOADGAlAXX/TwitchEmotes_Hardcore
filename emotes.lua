@@ -1,6 +1,6 @@
 basePath = "Interface\\AddOns\\TwitchEmotes_Hardcore\\emotes\\"
 
-judhead_emotes = {
+hardcore_emotes = {
     ["KEKSerious"] = basePath .. "KEKSerious.tga:28:28",
     ["KEKShook"] = basePath .. "KEKShook.tga:28:28",
     ["PogT"] = basePath .. "PogT.tga:28:28",
@@ -275,4 +275,5 @@ judhead_emotes = {
     ["Cereal"] = basePath .. "Cereal.tga:28:28",
     ["o"] = basePath .. "o.tga:56:28",
     ["cum7"] = basePath .. "cum7.tga:56:28",
+    ["wideBoink"] = basePath .. "wideBoink.tga:56:28",
 	}
