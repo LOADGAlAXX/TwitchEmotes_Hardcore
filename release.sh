@@ -35,7 +35,7 @@ gh release create \
     "$version" \
     --verify-tag \
     --title "TwitchEmotes Hardcore $version" \
-    --notes "TwitchEmotes Hardcore $version - added added wideBoink | Fixed a Bug where Emotes added from other Addons weren't showing in the Tab completion" \
+    --notes "TwitchEmotes Hardcore $version - fix addon not working standalone" \
     "dist/TwitchEmotes_Hardcore-$version.zip"
 
 echo "Published version $version to GitHub"
@@ -45,7 +45,7 @@ echo "Published version $version to GitHub"
 
 metadata=$(cat <<EOF
 {
-    "changelog": "$version - added wideBoink | Fixed a Bug where Emotes added from other Addons weren't showing in the Tab completion",
+    "changelog": "$version - fix addon not working standalone",
     "displayName": "TwitchEmotes Hardcore $version",
     "gameVersions": [14422, 14300, 14282, 14102, 14029],
     "releaseType": "$stage"
