@@ -1,20 +1,22 @@
 function hardcore_startup()
     local suggestions = {};
     local i = 1;
-
+    
     for k, v in pairs(hardcore_emotes) do
         TwitchEmotes:AddEmote(k, k, v);
-
         suggestions[i] = k;
         i = i + 1;
     end
-	for k, v in pairs(judhead_emotes) do
-        TwitchEmotes:AddEmote(k, k, v);
-
-        suggestions[i] = k;
-        i = i + 1;
+    
+    -- Check if judhead_emotes exists before using it
+    if judhead_emotes then
+        for k, v in pairs(judhead_emotes) do
+            TwitchEmotes:AddEmote(k, k, v);
+            suggestions[i] = k;
+            i = i + 1;
+        end
     end
-	
+    
     hardcore_initsuggestions(suggestions);
 end
 
@@ -67,10 +69,9 @@ end
 function hardcore_dump()
     local str = ""
     local i = 0
-
+    
     for k, v in pairs(hardcore_emotes) do
         str = str .. "|Htel:name = " .. k .. "\npath = " .. v .. "|h|T" .. v .. "|t|h "
-
         i = i + 1
         if i == 8 then
             print(str)
@@ -78,24 +79,26 @@ function hardcore_dump()
             i = 0
         end
     end
-
+    
     if i > 0 then
         print(str)
     end
-	
-	for k, v in pairs(judhead_emotes) do
-        str = str .. "|Htel:name = " .. k .. "\npath = " .. v .. "|h|T" .. v .. "|t|h "
-
-        i = i + 1
-        if i == 8 then
-            print(str)
-            str = ""
-            i = 0
+    
+    -- Check if judhead_emotes exists before using it
+    if judhead_emotes then
+        for k, v in pairs(judhead_emotes) do
+            str = str .. "|Htel:name = " .. k .. "\npath = " .. v .. "|h|T" .. v .. "|t|h "
+            i = i + 1
+            if i == 8 then
+                print(str)
+                str = ""
+                i = 0
+            end
         end
-    end
-
-    if i > 0 then
-        print(str)
+        
+        if i > 0 then
+            print(str)
+        end
     end
 end
 
