@@ -274,7 +274,6 @@ hardcore_emotes = {
     ["reeducated"] = basePath .. "reeducated.tga:56:28",
     ["Cereal"] = basePath .. "Cereal.tga:28:28",
     ["o"] = basePath .. "o.tga:56:28",
-    ["cum7"] = basePath .. "cum7.tga:56:28",
     ["ooBLEH"] = basePath .. "ooBLEH.tga:28:62:0:0:96:32:0:96:0:32",
     ["uwo"] = basePath .. "uwo.tga:28:62:0:0:96:32:0:96:0:32",
     ["evol"] = basePath .. "evol.tga:28:62:0:0:96:32:0:96:0:32",
@@ -282,4 +281,6 @@ hardcore_emotes = {
     ["buhOverShakeyFlipExplode"] = basePath .. "buhOverShakeyFlipExplode.tga:56:28",
     ["ohno"] = basePath .. "ohno.tga:56:28",
     ["ShouldIDoIt"] = basePath .. "ShouldIDoIt.tga:56:28",
+    ["cum7"] = basePath .. "cum7.tga:56:28",
+    ["hub"] = basePath .. "hub.tga:56:28",
 	}

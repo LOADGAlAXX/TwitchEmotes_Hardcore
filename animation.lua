@@ -204,7 +204,6 @@ TwitchEmotes_animation_metadata[basePath .. "SkeletonPls.tga"] = {["nFrames"] = 
 TwitchEmotes_animation_metadata[basePath .. "reeducated.tga"] = {["nFrames"] = 125, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 4096, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "o.tga"] = {["nFrames"] = 1, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 32, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "o.tga"] = {["nFrames"] = 1, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 32, ["framerate"] = 18}
-TwitchEmotes_animation_metadata[basePath .. "cum7.tga"] = {["nFrames"] = 95, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 4096, ["framerate"] = 30}
 TwitchEmotes_animation_metadata[basePath .. "ooBLEH.tga"] = {["nFrames"] = 86, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 4096, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "uwo.tga"] = {["nFrames"] = 1, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 32, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "evol.tga"] = {["nFrames"] = 1, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 32, ["framerate"] = 18}
@@ -212,3 +211,5 @@ TwitchEmotes_animation_metadata[basePath .. "wideBoink.tga"] = {["nFrames"] = 25
 TwitchEmotes_animation_metadata[basePath .. "buhOverShakeyFlipExplode.tga"] = {["nFrames"] = 73, ["frameWidth"] = 96, ["frameHeight"] = 32, ["imageWidth"] = 96, ["imageHeight"] = 4096, ["framerate"] = 30}
 TwitchEmotes_animation_metadata[basePath .. "ohno.tga"] = {["nFrames"] = 56, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 2048, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "ShouldIDoIt.tga"] = {["nFrames"] = 253, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 8192, ["framerate"] = 18}
+TwitchEmotes_animation_metadata[basePath .. "cum7.tga"] = {["nFrames"] = 95, ["frameWidth"] = 96, ["frameHeight"] = 32, ["imageWidth"] = 96, ["imageHeight"] = 4096, ["framerate"] = 30}
+TwitchEmotes_animation_metadata[basePath .. "hub.tga"] = {["nFrames"] = 117, ["frameWidth"] = 45, ["frameHeight"] = 32, ["imageWidth"] = 45, ["imageHeight"] = 4096, ["framerate"] = 18}
