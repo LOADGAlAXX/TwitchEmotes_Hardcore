@@ -207,7 +207,7 @@ TwitchEmotes_animation_metadata[basePath .. "ShouldIDoIt.tga"] = {["nFrames"] = 
 TwitchEmotes_animation_metadata[basePath .. "cum7.tga"] = {["nFrames"] = 95, ["frameWidth"] = 96, ["frameHeight"] = 32, ["imageWidth"] = 96, ["imageHeight"] = 4096, ["framerate"] = 30}
 TwitchEmotes_animation_metadata[basePath .. "hub.tga"] = {["nFrames"] = 117, ["frameWidth"] = 45, ["frameHeight"] = 32, ["imageWidth"] = 45, ["imageHeight"] = 4096, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "lerolero.tga"] = {["nFrames"] = 22, ["frameWidth"] = 96, ["frameHeight"] = 32, ["imageWidth"] = 96, ["imageHeight"] = 1024, ["framerate"] = 30}
-TwitchEmotes_animation_metadata[basePath .. "67.tga"] = {["nFrames"] = 205, ["frameWidth"] = 48, ["frameHeight"] = 32, ["imageWidth"] = 48, ["imageHeight"] = 8192, ["framerate"] = 30}
+TwitchEmotes_animation_metadata[basePath .. "67.tga"] = {["nFrames"] = 205, ["frameWidth"] = 48, ["frameHeight"] = 32, ["imageWidth"] = 48, ["imageHeight"] = 8192, ["framerate"] = 45}
 TwitchEmotes_animation_metadata[basePath .. "feaky.tga"] = {["nFrames"] = 1, ["frameWidth"] = 96, ["frameHeight"] = 32, ["imageWidth"] = 96, ["imageHeight"] = 32, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "silli.tga"] = {["nFrames"] = 1, ["frameWidth"] = 96, ["frameHeight"] = 32, ["imageWidth"] = 96, ["imageHeight"] = 32, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "staycalm.tga"] = {["nFrames"] = 1, ["frameWidth"] = 86, ["frameHeight"] = 32, ["imageWidth"] = 96, ["imageHeight"] = 32, ["framerate"] = 18}
@@ -216,3 +216,5 @@ TwitchEmotes_animation_metadata[basePath .. "o.tga"] = {["nFrames"] = 1, ["frame
 TwitchEmotes_animation_metadata[basePath .. "ooBLEH.tga"] = {["nFrames"] = 69, ["frameWidth"] = 95, ["frameHeight"] = 32, ["imageWidth"] = 96, ["imageHeight"] = 4096, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "evol.tga"] = {["nFrames"] = 1, ["frameWidth"] = 96, ["frameHeight"] = 32, ["imageWidth"] = 96, ["imageHeight"] = 32, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "uwo.tga"] = {["nFrames"] = 1, ["frameWidth"] = 96, ["frameHeight"] = 32, ["imageWidth"] = 96, ["imageHeight"] = 32, ["framerate"] = 18}
+TwitchEmotes_animation_metadata[basePath .. "boobaHeart.tga"] = {["nFrames"] = 16, ["frameWidth"] = 58, ["frameHeight"] = 32, ["imageWidth"] = 58, ["imageHeight"] = 512, ["framerate"] = 10}
+TwitchEmotes_animation_metadata[basePath .. "freaky.tga"] = {["nFrames"] = 7, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 256, ["framerate"] = 30}

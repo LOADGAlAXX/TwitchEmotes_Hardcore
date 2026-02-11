@@ -288,4 +288,7 @@ hardcore_emotes = {
     ["ooBLEH"] = basePath .. "ooBLEH.tga:56:28",
     ["evol"] = basePath .. "evol.tga:56:28",
     ["uwo"] = basePath .. "uwo.tga:56:28",
+    ["boobaHeart"] = basePath .. "boobaHeart.tga:56:28",
+    ["freaky"] = basePath .. "freaky.tga:56:28",
+    ["ta"] = basePath .. "ta.tga:28:28",
 	}
