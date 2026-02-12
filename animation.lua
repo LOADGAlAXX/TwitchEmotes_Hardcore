@@ -218,3 +218,4 @@ TwitchEmotes_animation_metadata[basePath .. "evol.tga"] = {["nFrames"] = 1, ["fr
 TwitchEmotes_animation_metadata[basePath .. "uwo.tga"] = {["nFrames"] = 1, ["frameWidth"] = 96, ["frameHeight"] = 32, ["imageWidth"] = 96, ["imageHeight"] = 32, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "boobaHeart.tga"] = {["nFrames"] = 16, ["frameWidth"] = 58, ["frameHeight"] = 32, ["imageWidth"] = 58, ["imageHeight"] = 512, ["framerate"] = 10}
 TwitchEmotes_animation_metadata[basePath .. "freaky.tga"] = {["nFrames"] = 7, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 256, ["framerate"] = 30}
+TwitchEmotes_animation_metadata[basePath .. "tbcticking.tga"] = {["nFrames"] = 2, ["frameWidth"] = 69, ["frameHeight"] = 32, ["imageWidth"] = 69, ["imageHeight"] = 64, ["framerate"] = 18}
