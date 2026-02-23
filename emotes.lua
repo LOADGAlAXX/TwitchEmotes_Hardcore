@@ -258,7 +258,6 @@ hardcore_emotes = {
     ["ABOBA"] = basePath .. "ABOBA.tga:56:28",
     ["KEKSip"] = basePath .. "KEKSip.tga:28:28",
     ["Listening"] = basePath .. "Listening.tga:56:28",
-    ["LO"] = basePath .. "LO.tga:28:36",
     ["waga"] = basePath .. "waga.tga:56:28",
     ["frogWide"] = basePath .. "frogWide.tga:28:62:0:0:96:32:0:96:0:32",
     ["kermitStretch"] = basePath .. "kermitStretch.tga:28:62:0:0:96:32:0:96:0:32",
@@ -299,4 +298,8 @@ hardcore_emotes = {
     ["peepoShi"] = basePath .. "peepoShi.tga:28:28",
     ["peepoZen"] = basePath .. "peepoZen.tga:28:28",
     ["dumbass"] = basePath .. "dumbass.tga:56:28",
+    ["speedLaugh"] = basePath .. "speedLaugh.tga:56:28",
+    ["fentbert"] = basePath .. "fentbert.tga:56:28",
+    ["LO"] = basePath .. "LO.tga:56:28",
+    ["tinyLO"] = basePath .. "tinyLO.tga:28:28",
 	}
