@@ -224,3 +224,5 @@ TwitchEmotes_animation_metadata[basePath .. "dumbass.tga"] = {["nFrames"] = 156,
 TwitchEmotes_animation_metadata[basePath .. "speedLaugh.tga"] = {["nFrames"] = 143, ["frameWidth"] = 43, ["frameHeight"] = 32, ["imageWidth"] = 43, ["imageHeight"] = 8192, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "fentbert.tga"] = {["nFrames"] = 1, ["frameWidth"] = 96, ["frameHeight"] = 32, ["imageWidth"] = 96, ["imageHeight"] = 32, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "LO.tga"] = {["nFrames"] = 1, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 32, ["framerate"] = 18}
+TwitchEmotes_animation_metadata[basePath .. "otague.tga"] = {["nFrames"] = 1, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 32, ["framerate"] = 18}
+TwitchEmotes_animation_metadata[basePath .. "otag.tga"] = {["nFrames"] = 1, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 32, ["framerate"] = 18}
