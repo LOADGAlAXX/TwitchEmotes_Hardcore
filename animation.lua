@@ -227,3 +227,8 @@ TwitchEmotes_animation_metadata[basePath .. "LO.tga"] = {["nFrames"] = 1, ["fram
 TwitchEmotes_animation_metadata[basePath .. "otague.tga"] = {["nFrames"] = 1, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 32, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "otag.tga"] = {["nFrames"] = 1, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 32, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "jah.tga"] = {["nFrames"] = 150, ["frameWidth"] = 57, ["frameHeight"] = 32, ["imageWidth"] = 57, ["imageHeight"] = 8192, ["framerate"] = 30}
+TwitchEmotes_animation_metadata[basePath .. "UiaUia.tga"] = {["nFrames"] = 60, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 2048, ["framerate"] = 30}
+TwitchEmotes_animation_metadata[basePath .. "StopIt.tga"] = {["nFrames"] = 35, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 2048, ["framerate"] = 30}
+TwitchEmotes_animation_metadata[basePath .. "GetSomeHelp.tga"] = {["nFrames"] = 38, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 2048, ["framerate"] = 30}
+TwitchEmotes_animation_metadata[basePath .. "LMAOOoooo.tga"] = {["nFrames"] = 158, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 8192, ["framerate"] = 18}
+TwitchEmotes_animation_metadata[basePath .. "blicky.tga"] = {["nFrames"] = 111, ["frameWidth"] = 87, ["frameHeight"] = 32, ["imageWidth"] = 87, ["imageHeight"] = 4096, ["framerate"] = 30}

@@ -306,4 +306,11 @@ hardcore_emotes = {
     ["otag"] = basePath .. "otag.tga:56:28",
     ["Sadgi"] = basePath .. "Sadgi.tga:28:28",
     ["jah"] = basePath .. "jah.tga:56:28",
+    ["UiaUia"] = basePath .. "UiaUia.tga:56:28",
+    ["Herbge"] = basePath .. "Herbge.tga:28:28",
+    ["MiningTime"] = basePath .. "MiningTime.tga:28:28",
+    ["StopIt"] = basePath .. "StopIt.tga:56:28",
+    ["GetSomeHelp"] = basePath .. "GetSomeHelp.tga:56:28",
+    ["LMAOOoooo"] = basePath .. "LMAOOoooo.tga:56:28",
+    ["blicky"] = basePath .. "blicky.tga:56:28",
 	}
