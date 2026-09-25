@@ -47,7 +47,7 @@ metadata=$(cat <<EOF
 {
     "changelog": "$version - added GOONGOON, GOONGOONED, AHH, ass11 | -changed salami to be capitalised (Salami) | .toc update for forever",
     "displayName": "TwitchEmotes Hardcore $version",
-    "gameVersions": [14422, 14300, 14282, 14102, 14029],
+    "gameVersions": [17053, 16984, 16630, 16533, 16081, 16168],
     "releaseType": "$stage"
 }
 EOF
