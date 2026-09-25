@@ -232,5 +232,5 @@ TwitchEmotes_animation_metadata[basePath .. "StopIt.tga"] = {["nFrames"] = 35, [
 TwitchEmotes_animation_metadata[basePath .. "GetSomeHelp.tga"] = {["nFrames"] = 38, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 2048, ["framerate"] = 30}
 TwitchEmotes_animation_metadata[basePath .. "LMAOOoooo.tga"] = {["nFrames"] = 158, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 8192, ["framerate"] = 18}
 TwitchEmotes_animation_metadata[basePath .. "blicky.tga"] = {["nFrames"] = 111, ["frameWidth"] = 87, ["frameHeight"] = 32, ["imageWidth"] = 87, ["imageHeight"] = 4096, ["framerate"] = 30}
-TwitchEmotes_animation_metadata[basePath .. "AHH.tga"] = {["nFrames"] = 118, ["frameWidth"] = 36, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 4096, ["framerate"] = 18}
-TwitchEmotes_animation_metadata[basePath .. "ass11.tga"] = {["nFrames"] = 241, ["frameWidth"] = 96, ["frameHeight"] = 32, ["imageWidth"] = 128, ["imageHeight"] = 8192, ["framerate"] = 18}
+TwitchEmotes_animation_metadata[basePath .. "AHH.tga"] = {["nFrames"] = 118, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 4096, ["framerate"] = 30}
+TwitchEmotes_animation_metadata[basePath .. "ass11.tga"] = {["nFrames"] = 241, ["frameWidth"] = 96, ["frameHeight"] = 32, ["imageWidth"] = 128, ["imageHeight"] = 8192, ["framerate"] = 30}
