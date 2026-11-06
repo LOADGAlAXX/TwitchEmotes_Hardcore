@@ -57,7 +57,7 @@ fi
 
 version="${version_mainline}-${stage}"
 archive="dist/TwitchEmotes_Hardcore-${version}.zip"
-changelog="$version - added GOONGOON, GOONGOONED, AHH, ass11 | -changed salami to be capitalised (Salami) | .toc update for forever"
+changelog="$version - added Degloved"
 
 # Require a clean working tree.
 if [[ -n "$(git status --porcelain)" ]]; then
