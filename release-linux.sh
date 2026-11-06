@@ -57,7 +57,7 @@ fi
 
 version="${version_mainline}-${stage}"
 archive="dist/TwitchEmotes_Hardcore-${version}.zip"
-changelog="$version - Code fixes for forever (No more 50 billion errors in boss fight, but also no emotes in boss fight)"
+changelog="$version - added GOONGOON, GOONGOONED, AHH, ass11 | -changed salami to be capitalised (Salami) | .toc update for forever"
 
 # Require a clean working tree.
 if [[ -n "$(git status --porcelain)" ]]; then
@@ -77,13 +77,13 @@ if ! git merge-base --is-ancestor HEAD '@{u}'; then
 fi
 
 # Build the release archive.
-if [[ ! -x "./build.sh" ]]; then
-    echo "Error: ./build.sh is missing or not executable." >&2
-    echo "Run: chmod +x build.sh" >&2
+if [[ ! -x "./build-linux.sh" ]]; then
+    echo "Error: ./build-linux.sh is missing or not executable." >&2
+    echo "Run: chmod +x build-linux.sh" >&2
     exit 1
 fi
 
-./build.sh "$stage"
+./build-linux.sh "$stage"
 
 if [[ ! -f "$archive" ]]; then
     printf 'Error: build did not create expected archive: %s\n' "$archive" >&2
