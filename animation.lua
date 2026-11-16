@@ -235,3 +235,5 @@ TwitchEmotes_animation_metadata[basePath .. "blicky.tga"] = {["nFrames"] = 111, 
 TwitchEmotes_animation_metadata[basePath .. "AHH.tga"] = {["nFrames"] = 118, ["frameWidth"] = 64, ["frameHeight"] = 32, ["imageWidth"] = 64, ["imageHeight"] = 4096, ["framerate"] = 30}
 TwitchEmotes_animation_metadata[basePath .. "ass11.tga"] = {["nFrames"] = 241, ["frameWidth"] = 96, ["frameHeight"] = 32, ["imageWidth"] = 128, ["imageHeight"] = 8192, ["framerate"] = 30}
 TwitchEmotes_animation_metadata[basePath .. "Degloved.tga"] = {["nFrames"] = 108, ["frameWidth"] = 93, ["frameHeight"] = 32, ["imageWidth"] = 93, ["imageHeight"] = 4096, ["framerate"] = 18}
+TwitchEmotes_animation_metadata[basePath .. "Buddy.tga"] = {["nFrames"] = 1, ["frameWidth"] = 54, ["frameHeight"] = 32, ["imageWidth"] = 54, ["imageHeight"] = 32, ["framerate"] = 18}
+TwitchEmotes_animation_metadata[basePath .. "ohne.tga"] = {["nFrames"] = 30, ["frameWidth"] = 32, ["frameHeight"] = 32, ["imageWidth"] = 32, ["imageHeight"] = 1024, ["framerate"] = 10}

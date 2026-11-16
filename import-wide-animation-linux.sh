@@ -49,7 +49,7 @@ else
 fi
 (( ${#frames[@]} > 0 )) || { echo "Error: frame selection is empty." >&2; exit 1; }
 
-magick "${frames[@]}" -resize "93x32" -background none -gravity center -append "$image_appended"
+magick "${frames[@]}" -resize "96x24" -background none -gravity center -append "$image_appended"
 
 orig_h=$(magick identify -ping -format '%h' "$image_appended")
 orig_w=$(magick identify -ping -format '%w' "$image_appended")
@@ -62,7 +62,7 @@ while (( final_h < orig_h )); do final_h=$((final_h * 2)); done
 final_w=1
 while (( final_w < orig_w )); do final_w=$((final_w * 2)); done
 
-magick "$image_appended" -background none -gravity North -extent "93x${final_h}" "$image_final"
+magick "$image_appended" -background none -gravity North -extent "96x${final_h}" "$image_final"
 
 emotes_newline='["'"$name"'"] = basePath .. "'"$name"'.tga:56:28",'
 sed -i -e '$i\'"    $emotes_newline" emotes.lua
