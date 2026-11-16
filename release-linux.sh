@@ -30,32 +30,21 @@ for cmd in git gh curl awk; do
     fi
 done
 
-mainline_toc="TwitchEmotes_Hardcore-Mainline.toc"
-classic_toc="TwitchEmotes_Hardcore-Classic.toc"
+toc_file="TwitchEmotes_Hardcore.toc"
 
-for file in "$mainline_toc" "$classic_toc"; do
-    if [[ ! -f "$file" ]]; then
-        printf 'Error: required file not found: %s\n' "$file" >&2
-        exit 1
-    fi
-done
-
-version_mainline="$(awk '$1 == "##" && $2 == "Version:" { print $3; exit }' "$mainline_toc")"
-version_classic="$(awk '$1 == "##" && $2 == "Version:" { print $3; exit }' "$classic_toc")"
-
-if [[ -z "$version_mainline" || -z "$version_classic" ]]; then
-    echo "Error: could not read version from the TOC files." >&2
+if [[ ! -f "$toc_file" ]]; then
+    printf 'Error: required file not found: %s\n' "$toc_file" >&2
     exit 1
 fi
 
-if [[ "$version_mainline" != "$version_classic" ]]; then
-    printf 'Error: %s is version %s, but %s is version %s\n' \
-        "$mainline_toc" "$version_mainline" \
-        "$classic_toc" "$version_classic" >&2
+version="$(awk '$1 == "##" && $2 == "Version:" { print $3; exit }' "$toc_file")"
+
+if [[ -z "$version" ]]; then
+    printf 'Error: could not read ## Version: from %s.\\n' "$toc_file" >&2
     exit 1
 fi
 
-version="${version_mainline}-${stage}"
+version="${version}-${stage}"
 archive="dist/TwitchEmotes_Hardcore-${version}.zip"
 changelog="$version - added Degloved, Buddy, ohne, Lemn"
 
