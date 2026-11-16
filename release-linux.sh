@@ -57,7 +57,7 @@ fi
 
 version="${version_mainline}-${stage}"
 archive="dist/TwitchEmotes_Hardcore-${version}.zip"
-changelog="$version - added Degloved"
+changelog="$version - added Degloved, Buddy, ohne, Lemn"
 
 # Require a clean working tree.
 if [[ -n "$(git status --porcelain)" ]]; then
