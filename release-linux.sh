@@ -46,7 +46,7 @@ fi
 
 version="${version}-${stage}"
 archive="dist/TwitchEmotes_Hardcore-${version}.zip"
-changelog="$version - added Degloved, Buddy, ohne, Lemn"
+changelog="$version - Changed .toc structure to use only one file, added coloring to the name in the addons list, gave it an icon in the addons list, also changed o to require semicolon | !! THIS UPDATE REQUIRES A GAME RESTART DUE TO THE TOC CHANGES !!"
 
 # Require a clean working tree.
 if [[ -n "$(git status --porcelain)" ]]; then
