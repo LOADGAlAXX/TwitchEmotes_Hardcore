@@ -1,6 +1,7 @@
 ## Interface: 11506, 20505, 50500, 120001, 16001
 ## Version: 1.12.0
-## Title: TwitchEmotes Hardcore v1.12.0
+## Title: |cFF8000FF TwitchEmotes Hardcore v1.12.0 |r
+## IconTexture: Interface/Addons/TwitchEmotes_Hardcore/emotes/KEKSerious.tga
 ## Dependencies: TwitchEmotes
 emotes.lua
 animation.lua
