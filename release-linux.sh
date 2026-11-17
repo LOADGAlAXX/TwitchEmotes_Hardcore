@@ -72,7 +72,7 @@ if [[ ! -x "./build-linux.sh" ]]; then
     exit 1
 fi
 
-./build-linux.sh "$stage"
+./build-linux-new.sh "$stage"
 
 if [[ ! -f "$archive" ]]; then
     printf 'Error: build did not create expected archive: %s\n' "$archive" >&2
